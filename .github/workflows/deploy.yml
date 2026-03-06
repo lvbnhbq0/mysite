@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-      
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
@@ -32,7 +32,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          nose-version: '20'
+          node-version: '20'
 
       - name: Install TailwindCSS
         run: npm install -g tailwindcss
@@ -42,10 +42,13 @@ jobs:
           if [ -f package.json ]; then
             npm install
           fi
-      
+
       - name: Build with Hugo
+        env:
+          # Для репозитория mysite: GitHub Pages = https://lvbnhbq0.github.io/mysite/
+          HUGO_BASEURL: https://lvbnhbq0.github.io/mysite/
         run: hugo --minify
-      
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -61,3 +64,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+

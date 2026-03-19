@@ -5,9 +5,10 @@ date: 2026-03-19
 
 image:
   caption: 'Git logo by Jason Long — [Git-logo.svg](https://commons.wikimedia.org/wiki/File:Git-logo.svg) ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.en), via [Wikimedia Commons](https://commons.wikimedia.org/))'
+  filename: featured.png
 
 cover:
-  image: cover.png
+  image: featured.png
   position:
     x: 50
     y: 50

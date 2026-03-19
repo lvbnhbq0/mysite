@@ -5,9 +5,10 @@ date: 2026-03-19
 
 image:
   caption: 'Jirka Fiala — [Reduced row echelon form.svg](https://commons.wikimedia.org/wiki/File:Reduced_row_echelon_form.svg) ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en), via [Wikimedia Commons](https://commons.wikimedia.org/))'
+  filename: featured.png
 
 cover:
-  image: cover.png
+  image: featured.png
   position:
     x: 50
     y: 50

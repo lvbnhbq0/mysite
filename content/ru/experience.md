@@ -9,20 +9,20 @@ design:
 sections:
   - block: resume-experience
     content:
-      username: me-ru
+      username: me
     design:
       date_format: '02.01.2006'
       is_education_first: false
   - block: resume-skills
     content:
       title: Навыки
-      username: me-ru
+      username: me
   - block: resume-awards
     content:
       title: Достижения
-      username: me-ru
+      username: me
   - block: resume-languages
     content:
       title: Языки
-      username: me-ru
+      username: me
 ---

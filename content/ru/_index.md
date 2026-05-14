@@ -11,7 +11,7 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      username: me-ru
+      username: me
       text: ''
       headings:
         about: ''

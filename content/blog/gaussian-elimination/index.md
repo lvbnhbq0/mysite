@@ -4,7 +4,7 @@ summary: I implemented Gaussian elimination to solve systems of linear equations
 date: 2026-03-19
 
 image:
-  caption: 'Jirka Fiala — [Reduced row echelon form.svg](https://commons.wikimedia.org/wiki/File:Reduced_row_echelon_form.svg) ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en), via [Wikimedia Commons](https://commons.wikimedia.org/))'
+  caption: 'Jirka Fiala — [Reduced row echelon form.svg](https://commons.wikimedia.org/wiki/File:Reduced_row_echelon_form.svg) ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en), via [Wikimedia Commons](https://commons.wikimedia.org/)); PNG preview from Commons.'
   filename: featured.png
 
 cover:
@@ -15,7 +15,7 @@ cover:
   overlay:
     enabled: true
     type: "gradient"
-    opacity: 0.45
+    opacity: 0.32
     gradient: "bottom"
   fade:
     enabled: true

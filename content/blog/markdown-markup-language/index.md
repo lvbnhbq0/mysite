@@ -4,7 +4,7 @@ summary: What Markdown is, why it is popular for docs and static sites, and how 
 date: 2026-03-31
 
 image:
-  caption: 'Dustin Curtis — official [Markdown mark](https://github.com/dcurtis/markdown-mark) raster ([public domain / CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en), project [LICENSE](https://github.com/dcurtis/markdown-mark/blob/master/LICENSE)).'
+  caption: 'Dustin Curtis (mark) — [Markdown-mark.svg](https://commons.wikimedia.org/wiki/File:Markdown-mark.svg) ([CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en), via [Wikimedia Commons](https://commons.wikimedia.org/)); PNG preview from Commons. Original: [markdown-mark](https://github.com/dcurtis/markdown-mark).'
   filename: featured.png
 
 cover:
@@ -15,7 +15,7 @@ cover:
   overlay:
     enabled: true
     type: "gradient"
-    opacity: 0.45
+    opacity: 0.32
     gradient: "bottom"
   fade:
     enabled: true

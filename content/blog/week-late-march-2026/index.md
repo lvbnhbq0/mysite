@@ -4,7 +4,7 @@ summary: A short recap of coursework, self-study on the Transformer architecture
 date: 2026-03-30
 
 image:
-  caption: 'dvgodoy — [Transformer, full architecture.png](https://commons.wikimedia.org/wiki/File:Transformer,_full_architecture.png) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en), via [Wikimedia Commons](https://commons.wikimedia.org/)); source graphics from [dl-visuals](https://github.com/dvgodoy/dl-visuals).'
+  caption: 'dvgodoy — [Transformer, full architecture.png](https://commons.wikimedia.org/wiki/File:Transformer,_full_architecture.png) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en), via [Wikimedia Commons](https://commons.wikimedia.org/)); PNG preview from Commons. Source graphics: [dl-visuals](https://github.com/dvgodoy/dl-visuals).'
   filename: featured.png
 
 cover:
@@ -15,7 +15,7 @@ cover:
   overlay:
     enabled: true
     type: "gradient"
-    opacity: 0.45
+    opacity: 0.32
     gradient: "bottom"
   fade:
     enabled: true

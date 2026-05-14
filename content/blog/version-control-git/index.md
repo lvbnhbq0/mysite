@@ -4,7 +4,7 @@ summary: Why version control matters and how Git helps in coursework and persona
 date: 2026-03-19
 
 image:
-  caption: 'Git logo by Jason Long — [Git-logo.svg](https://commons.wikimedia.org/wiki/File:Git-logo.svg) ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.en), via [Wikimedia Commons](https://commons.wikimedia.org/))'
+  caption: 'Jason Long — [Git-logo.svg](https://commons.wikimedia.org/wiki/File:Git-logo.svg) ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.en), via [Wikimedia Commons](https://commons.wikimedia.org/)); PNG preview from Commons.'
   filename: featured.png
 
 cover:
@@ -15,7 +15,7 @@ cover:
   overlay:
     enabled: true
     type: "gradient"
-    opacity: 0.45
+    opacity: 0.32
     gradient: "bottom"
   fade:
     enabled: true

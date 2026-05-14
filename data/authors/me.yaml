@@ -26,7 +26,22 @@ links:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/lvbnhbq0
-  
+    label: GitHub
+  - icon: hero/book-open
+    url: https://elibrary.ru/project_user_office.asp
+    label: eLibrary
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0007-2732-9016
+    label: ORCID
+  - icon: brands/mendeley
+    url: https://www.mendeley.com/settings/account/
+    label: Mendeley
+  - icon: brands/researchgate
+    url: 'https://www.researchgate.net/profile/Dara-Nesterova?ev=hdr_xprf'
+    label: ResearchGate
+  - icon: academicons/academia
+    url: 'https://independent.academia.edu/ДарьяНестерова8'
+    label: Academia.edu
 interests:
   - Machine Learning
   - Analytics
@@ -85,6 +100,13 @@ languages:
     label: Fluent
 
 awards:
+  - title: Completed course — Introduction to Linux
+    url: https://disk.yandex.ru/i/owXObapEY237EQ
+    date: '2026-05-13'
+    awarder: Certificate (Yandex Disk)
+    summary: |
+      Passed the "Introduction to Linux" course; certificate (PDF) available at the link above.
+
   - title: Successfully defended lab work on Gaussian elimination
     url: ''
     date: '2026-03-19'

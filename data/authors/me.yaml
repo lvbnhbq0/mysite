@@ -41,16 +41,39 @@ education:
     summary: |
       Faculty of Physical, Mathematical and Natural Sciences.
 
-experience: []
+experience:
+  - role: Full-stack developer
+    org: Student hackathon (website track)
+    start: '2024-11-01'
+    end: '2024-11-03'
+    summary: |
+      In November 2024 I joined a hackathon team building a production-style website on a tight deadline: I contributed across the stack — layout and UI on the front end, server routes and data handling on the back end, and wiring the pieces together so we could present a working demo to the jury.
+
+  - role: Personal study — machine learning & algorithms
+    org: Independent
+    start: '2025-01-01'
+    end: ''
+    summary: |
+      Reading lecture notes and tutorials on neural networks, classical ML, and linear algebra implementations (including elimination-based solvers for coursework).
 
 skills:
-  - name: Technical Skills
+  - name: Technical skills
     items:
       - label: Python
         level: 4
-      - label: Machine Learning
+      - label: Machine learning fundamentals
+        level: 4
+      - label: Linear algebra & calculus
         level: 4
       - label: C++
+        level: 4
+      - label: Git & version control
+        level: 3
+  - name: Tools & workflow
+    items:
+      - label: Markdown / Hugo content
+        level: 3
+      - label: Data analysis (pandas, NumPy)
         level: 3
 
 languages:
@@ -61,4 +84,17 @@ languages:
     level: 3
     label: Fluent
 
-awards: []
+awards:
+  - title: Successfully defended lab work on Gaussian elimination
+    url: ''
+    date: '2026-03-19'
+    awarder: RUDN coursework
+    summary: |
+      Presented the algorithm, implementation, and answers to instructor questions for solving linear systems by elimination.
+
+  - title: Built and published this academic portfolio (GitHub Pages)
+    url: https://lvbnhbq0.github.io/mysite/
+    date: '2026-03-30'
+    awarder: Personal project
+    summary: |
+      Static site with HugoBlox — blog, projects, and CV-style sections maintained in Markdown.

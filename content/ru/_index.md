@@ -13,9 +13,6 @@ sections:
     content:
       username: me-ru
       text: ''
-      button:
-        text: Скачать CV
-        url: uploads/resume.pdf
       headings:
         about: ''
         education: ''

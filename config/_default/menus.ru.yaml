@@ -1,0 +1,21 @@
+main:
+  - identifier: home
+    name: Обо мне
+    pageRef: /
+    weight: 10
+  - identifier: news
+    name: Новости
+    url: /#news
+    weight: 11
+  - identifier: experience
+    name: Опыт и достижения
+    pageRef: /experience
+    weight: 20
+  - identifier: projects
+    name: Проекты
+    pageRef: /projects
+    weight: 30
+  - identifier: courses
+    name: Курсы
+    pageRef: /courses
+    weight: 40

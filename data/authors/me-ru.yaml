@@ -1,0 +1,127 @@
+schema: hugoblox/author/v1
+slug: me-ru
+is_owner: true
+name:
+  display: Нестерова Дарья Антоновна
+  given: Дарья Антоновна
+  family: Нестерова
+  alternate: ''
+  pronunciation: ''
+  pronouns: она/её
+postnominals: []
+status:
+  icon: "☕️"
+role: Студентка
+bio: |
+  Нестерова Дарья Антоновна, 18 лет — студентка 1 курса бакалавриата
+  РУДН (Российский университет дружбы народов).
+
+affiliations:
+  - name: РУДН
+    url: https://www.rudn.ru/
+
+links:
+  - icon: at-symbol
+    url: mailto:dnenapep@yandex.ru
+    label: Написать на почту
+  - icon: brands/github
+    url: https://github.com/lvbnhbq0
+    label: GitHub
+  - icon: hero/book-open
+    url: https://elibrary.ru/project_user_office.asp
+    label: eLIBRARY.RU
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0007-2732-9016
+    label: ORCID
+  - icon: brands/mendeley
+    url: https://www.mendeley.com/settings/account/
+    label: Mendeley
+  - icon: brands/researchgate
+    url: 'https://www.researchgate.net/profile/Dara-Nesterova?ev=hdr_xprf'
+    label: ResearchGate
+  - icon: academicons/academia
+    url: 'https://independent.academia.edu/ДарьяНестерова8'
+    label: Academia.edu
+interests:
+  - Машинное обучение
+  - Аналитика
+  - Наука о данных
+  - Информатика
+  - Математика
+
+education:
+  - degree: Бакалавриат, 1 курс
+    institution: РУДН — Российский университет дружбы народов
+    start: 2024-09-01
+    summary: |
+      Факультет физико-математических и естественных наук.
+
+experience:
+  - role: Full-stack разработка
+    org: Студенческий хакатон (трек «веб-сайт»)
+    start: '2024-11-01'
+    end: '2024-11-03'
+    summary: |
+      В ноябре 2024 года участвовала в команде хакатона, которая за короткий срок
+      собрала сайт, близкий к «боевому»: вёрстка и интерфейс на фронтенде,
+      маршруты и данные на бэкенде, связка компонентов — чтобы к защите перед
+      жюри был рабочий демонстрационный стенд.
+
+  - role: Самостоятельное обучение — ML и алгоритмы
+    org: Самостоятельно
+    start: '2025-01-01'
+    end: ''
+    summary: |
+      Чтение конспектов и материалов по нейросетям, классическому ML и реализациям
+      линейной алгебры (в том числе методы исключения для лабораторных работ).
+
+skills:
+  - name: Технические навыки
+    items:
+      - label: Python
+        level: 4
+      - label: Основы машинного обучения
+        level: 4
+      - label: Линейная алгебра и матанализ
+        level: 4
+      - label: C++
+        level: 4
+      - label: Git и контроль версий
+        level: 3
+  - name: Инструменты и процесс
+    items:
+      - label: Markdown / контент Hugo
+        level: 3
+      - label: Анализ данных (pandas, NumPy)
+        level: 3
+
+languages:
+  - name: Русский
+    level: 5
+    label: Родной
+  - name: Английский
+    level: 3
+    label: Свободно
+
+awards:
+  - title: Курс «Введение в Linux» — пройден
+    url: https://disk.yandex.ru/i/owXObapEY237EQ
+    date: '2026-05-13'
+    awarder: Сертификат (Яндекс.Диск)
+    summary: |
+      Успешно пройден курс «Введение в Linux»; PDF-сертификат по ссылке выше.
+
+  - title: Защита лабораторной по методу Гаусса
+    url: ''
+    date: '2026-03-19'
+    awarder: Учебная практика РУДН
+    summary: |
+      Представлены алгоритм, реализация и ответы на вопросы преподавателя по решению
+      систем линейных уравнений методом исключения.
+
+  - title: Академическое портфолио на GitHub Pages
+    url: https://lvbnhbq0.github.io/mysite/
+    date: '2026-03-30'
+    awarder: Личный проект
+    summary: |
+      Статический сайт на HugoBlox — блог, проекты и блоки в стиле CV в Markdown.

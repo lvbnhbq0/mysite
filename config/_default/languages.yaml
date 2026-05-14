@@ -1,22 +1,36 @@
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
+# Multilingual site: English + Russian
+# Docs: https://gohugo.io/content-management/multilingual/
 
-# Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  languageName: English
+  contentDir: content/en
+  weight: 1
+  title: Nesterova Daria Antonovna
+  params:
+    description: "First-year bachelor's student at RUDN — portfolio, blog, and CV."
+    hugoblox:
+      identity:
+        name: "Nesterova Daria Antonovna"
+        description: "Nesterova Daria Antonovna — 18, first-year bachelor's student at RUDN (Peoples' Friendship University of Russia)."
+      locale:
+        date_format: "Jan 2, 2006"
+        time_format: "3:04 PM"
+        address_format: en-us
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+ru:
+  languageCode: ru-ru
+  languageName: Русский
+  contentDir: content/ru
+  weight: 2
+  title: Нестерова Дарья Антоновна
+  params:
+    description: "Студентка 1 курса бакалавриата РУДН — портфолио, блог и резюме."
+    hugoblox:
+      identity:
+        name: "Нестерова Дарья Антоновна"
+        description: "Нестерова Дарья Антоновна, 18 лет — студентка 1 курса бакалавриата РУДН (Российский университет дружбы народов)."
+      locale:
+        date_format: "02.01.2006"
+        time_format: "15:04"
+        address_format: ru-ru

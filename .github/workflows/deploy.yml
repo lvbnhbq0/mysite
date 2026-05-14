@@ -47,7 +47,8 @@ jobs:
         env:
           # Для репозитория mysite: GitHub Pages = https://lvbnhbq0.github.io/mysite/
           HUGO_BASEURL: https://lvbnhbq0.github.io/mysite/
-        run: hugo --minify
+        # Явный --baseURL гарантирует правильные пути к CSS/JS при деплое (совпадает с config hugo.yaml)
+        run: hugo --minify --baseURL "$HUGO_BASEURL"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

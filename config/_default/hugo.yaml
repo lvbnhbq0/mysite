@@ -16,8 +16,6 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
-# GitHub Pages project site lives under baseURL path (…/mysite/); relative links fix /ru/ menu 404s
-relativeURLs: true
 
 ############################
 ## PAGE OPTIONS

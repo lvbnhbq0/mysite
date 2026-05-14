@@ -11,7 +11,7 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      username: me-ru
+      username: me
       text: ''
       headings:
         about: 'О себе'
@@ -48,19 +48,4 @@ sections:
       view: card
       spacing:
         padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: false
-    content:
-      title: 👉 Свой академический сайт на HugoBlox
-      text: |-
-        Этот сайт собран на **HugoBlox Kit** — открытом генераторе на Hugo, которым пользуются десятки тысяч исследователей и студентов.
-
-        Можно собирать страницы из блоков без тяжёлой вёрстки: лендинги, портфолио и блоги.
-      button:
-        text: Шаблоны HugoBlox
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        css_class: 'bg-primary-300 dark:bg-primary-700'
-        css_style: ''
 ---

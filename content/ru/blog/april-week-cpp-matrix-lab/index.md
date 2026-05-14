@@ -24,7 +24,7 @@ cover:
     name: "🏅"
 
 authors:
-  - me-ru
+  - me
 
 tags:
   - C++

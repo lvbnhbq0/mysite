@@ -1,16 +1,9 @@
-schema: hugoblox/author/v1
-slug: me-ru
-is_owner: true
+# Русские поля автора поверх data/authors/me.yaml (тот же slug «me» → тот же аватар media/authors/me.*)
 name:
   display: Нестерова Дарья Антоновна
   given: Дарья Антоновна
   family: Нестерова
-  alternate: ''
-  pronunciation: ''
   pronouns: она/её
-postnominals: []
-status:
-  icon: "☕️"
 role: Студентка
 bio: |
   Нестерова Дарья Антоновна, 18 лет — студентка 1 курса бакалавриата

@@ -1,0 +1,15 @@
+# Переводы для ru (Hugo i18n: ключ → форма other)
+experience:
+  other: "Опыт работы"
+about_me:
+  other: "О себе"
+present:
+  other: "н.в."
+languages:
+  other: "Языки"
+read_more:
+  other: "Читать далее"
+home:
+  other: "Главная"
+close:
+  other: "Закрыть"

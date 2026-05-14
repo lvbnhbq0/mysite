@@ -1,7 +1,7 @@
 ---
 title: "Пример статьи в журнале (шаблон)"
 authors:
-- me-ru
+- me
 - Robert Ford
 author_notes:
 - "Равный вклад"

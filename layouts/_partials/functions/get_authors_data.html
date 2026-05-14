@@ -1,12 +1,14 @@
 {{/*
   Return the authors data map for the current language.
 
-  Language-specific author data from data/<lang>/authors/*.yaml is merged on top
-  of data/authors/*.yaml.
+  1) База: site.Data.authors (data/authors/*.yaml).
+  2) Если есть site.Data.<lang>.authors — поверх накладываем (как в HugoBlox).
+  3) Для ru: дополнительно читаем data/ru/authors/me.yaml через readFile + transform.Unmarshal
+     и merge в authors.me. Так русские поля подхватываются даже если site.Data.ru пустой
+     (частая ситуация на GitHub Pages / разных версиях Hugo).
 
-  NOTE: Use site.Data (not hugo.Data) so multilingual trees like site.Data.ru.authors
-  resolve correctly in Hugo + GitHub Pages builds. Upstream used hugo.Data, which can
-  omit language-specific data and leave RU pages on the default (EN) author profile.
+  Usage (как в модуле):
+    {{ $authors := partialCached "functions/get_authors_data" . site.Language.Lang }}
 */}}
 
 {{- $authors := index site.Data "authors" -}}
@@ -15,6 +17,7 @@
 {{- end -}}
 
 {{- $lang := site.Language.Lang -}}
+
 {{- $langData := index site.Data $lang -}}
 {{- if $langData -}}
   {{- $langAuthors := index $langData "authors" -}}
@@ -40,6 +43,24 @@
       {{- end -}}
     {{- end -}}
     {{- $authors = $merged -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Явный RU-патч из репозитория (не зависит от site.Data.ru) */ -}}
+{{- if eq $lang "ru" -}}
+  {{- $ruPath := "data/ru/authors/me.yaml" -}}
+  {{- with readFile $ruPath -}}
+    {{- $patch := transform.Unmarshal . -}}
+    {{- if and $patch (reflect.IsMap $patch) -}}
+      {{- $baseMe := index $authors "me" | default dict -}}
+      {{- $mergedMe := merge $baseMe $patch -}}
+      {{- $baseName := index $baseMe "name" -}}
+      {{- $patchName := index $patch "name" -}}
+      {{- if and (reflect.IsMap $baseName) (reflect.IsMap $patchName) -}}
+        {{- $mergedMe = merge $mergedMe (dict "name" (merge $baseName $patchName)) -}}
+      {{- end -}}
+      {{- $authors = merge $authors (dict "me" $mergedMe) -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 

@@ -33,4 +33,5 @@ ru:
       locale:
         date_format: "02.01.2006"
         time_format: "15:04"
-        address_format: ru-ru
+        # HugoBlox ships address_formats only for a fixed set; use en-us until ru is added to data/address_formats.toml
+        address_format: en-us

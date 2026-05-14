@@ -15,7 +15,3 @@ main:
     name: Проекты
     pageRef: /projects
     weight: 30
-  - identifier: courses
-    name: Курсы
-    pageRef: /courses
-    weight: 40

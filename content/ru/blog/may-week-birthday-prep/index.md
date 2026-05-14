@@ -24,7 +24,7 @@ cover:
     name: "🎂"
 
 authors:
-  - me
+  - me-ru
 
 tags:
   - Жизнь

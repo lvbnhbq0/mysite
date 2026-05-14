@@ -23,7 +23,7 @@ event_end: '2030-06-01T15:00:00Z'
 event_all_day: false
 
 authors:
-  - me
+  - me-ru
 
 tags:
   - Markdown

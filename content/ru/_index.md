@@ -11,12 +11,12 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      username: me
+      username: me-ru
       text: ''
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: 'О себе'
+        education: 'Образование'
+        interests: 'Интересы'
     design:
       background:
         gradient_mesh:

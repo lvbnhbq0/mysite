@@ -1,0 +1,46 @@
+{{/*
+  Return the authors data map for the current language.
+
+  Language-specific author data from data/<lang>/authors/*.yaml is merged on top
+  of data/authors/*.yaml.
+
+  NOTE: Use site.Data (not hugo.Data) so multilingual trees like site.Data.ru.authors
+  resolve correctly in Hugo + GitHub Pages builds. Upstream used hugo.Data, which can
+  omit language-specific data and leave RU pages on the default (EN) author profile.
+*/}}
+
+{{- $authors := index site.Data "authors" -}}
+{{- if not $authors -}}
+  {{- $authors = dict -}}
+{{- end -}}
+
+{{- $lang := site.Language.Lang -}}
+{{- $langData := index site.Data $lang -}}
+{{- if $langData -}}
+  {{- $langAuthors := index $langData "authors" -}}
+  {{- if $langAuthors -}}
+    {{- $merged := dict -}}
+    {{- range $slug, $data := $authors -}}
+      {{- $langAuthor := index $langAuthors $slug -}}
+      {{- if $langAuthor -}}
+        {{- $mergedAuthor := merge $data $langAuthor -}}
+        {{- $baseName := index $data "name" -}}
+        {{- $langName := index $langAuthor "name" -}}
+        {{- if and (reflect.IsMap $baseName) (reflect.IsMap $langName) -}}
+          {{- $mergedAuthor = merge $mergedAuthor (dict "name" (merge $baseName $langName)) -}}
+        {{- end -}}
+        {{- $merged = merge $merged (dict $slug $mergedAuthor) -}}
+      {{- else -}}
+        {{- $merged = merge $merged (dict $slug $data) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- range $slug, $data := $langAuthors -}}
+      {{- if not (index $authors $slug) -}}
+        {{- $merged = merge $merged (dict $slug $data) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $authors = $merged -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $authors -}}

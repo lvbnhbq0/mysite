@@ -22,7 +22,7 @@ image:
   filename: featured.png
 ---
 
-**Format:** independent study on an external online platform (Stepik-style), focused on practical administration and efficient work in a Linux environment.
+**Format:** independent study on an external online platform (Stepik), focused on practical administration and efficient work in a Linux environment.
 
 ### Topics
 

@@ -1,7 +1,7 @@
 ---
 title: Mastering Linux tools through an external online course
 date: 2026-05-13
-summary: Self-paced Stepik-style course on practical Linux administration — terminal workflows, remote access, and Bash automation, with a screenshot-backed completion report.
+summary: Self-paced Stepik course on practical Linux administration — terminal workflows, remote access, and Bash automation, with a screenshot-backed completion report.
 tags:
   - Linux
   - Bash

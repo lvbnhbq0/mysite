@@ -10,7 +10,7 @@ sections:
   - block: collection
     content:
       title: Избранные проекты
-      text: Небольшие эксперименты в компьютерном зрении и NLP — короткие пайплайны с воспроизводимым кодом.
+      text: ''
       filters:
         folders:
           - projects

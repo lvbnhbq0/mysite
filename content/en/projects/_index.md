@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: A few personal experiments in vision and NLP — small in scope, but real pipelines with reproducible code.
+      text: ''
       filters:
         folders:
           - projects
